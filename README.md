@@ -5,7 +5,7 @@ Scraping, cleaning, visualization, and analysis of NYPD disciplinary proceedings
 On April 16th, 2018, records were made public of ~1,800 New York City police department employees with departmental misconduct charges brought between 2011 and 2015. This information allows us to launch an evidence-based assessment of the department’s disciplinary system. There are not resources available online to search for problematic officers in NYC; [a few options](https://openoversight.lucyparsonslabs.com/find "OpenOversight") exist for a handful of cities. 
 
 ### Data
-This data was made public by an anonymous source within the NYPD. [Buzzfeed](https://www.buzzfeed.com/kendalltaggart/nypd-police-misconduct-database?utm_term=.mvV5dKZp0#.xcqdjR5Xw) delivered a csv file with officer names and links to PDFs of the records. Each PDF file contains multiple records. We scrape and parse the text to extract the employee name, rank, specification(s), disposition, penalty, date of disposition, and date of charges. 
+This data was made public by an anonymous source within the NYPD. [Buzzfeed](https://www.buzzfeed.com/kendalltaggart/nypd-police-misconduct-database?utm_term=.mvV5dKZp0#.xcqdjR5Xw) delivered a .csv file with officer names and links to PDFs of the records. Each PDF contains multiple records. We scrape and parse the text to extract the employee name, rank, specification(s), disposition, penalty, date of disposition, and date of charges. 
 
 ### Objectives 
 
