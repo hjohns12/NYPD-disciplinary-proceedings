@@ -7,7 +7,7 @@ with open('nypd-discipline.csv', 'r') as infile:
     reader = csv.DictReader(infile)
     for line in reader:
         match = re.search('[0-9].*?\.', line['URL'])
-        filename = 'text/' +  line['URL'][match.start():match.end()] + 'txt'
+        filename = '../text/' +  line['URL'][match.start():match.end()] + 'txt'
         if os.path.exists(filename):
             continue
         line['URL'] = re.sub('www.documentcloud', 'assets.documentcloud', line['URL'])
